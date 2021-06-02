@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+  
+  <parameter name="url" value="https://login.yahoo.com/?.intl=ca"/>
+  <parameter name="Emailid" value="simapatel@yahoo.com"/>
+    <classes>
+      <class name="tests.yahoologintest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
